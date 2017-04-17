@@ -1,0 +1,138 @@
+body {
+    background-color: #fff;
+    text-align: center;
+}
+
+/* MENU */
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #037;
+    font-size: 1.2em;
+    font-family:sans-serif;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: #F77;
+    font-size: 1.2em;
+    font-family:sans-serif;
+}
+
+header img {
+    width: 200px;
+}
+
+/* MAIN PAGE */
+
+h1 + img {
+    height: 300px;
+}
+
+/* Каталог */
+
+.catalog a {
+    text-decoration: none;
+    color: #037;
+}
+
+.preview {
+    height: 150px;
+}
+
+/* Контакты */
+
+input, textarea {
+    color: #048;
+    font-size: 14px; 
+    text-transform: capitalize;
+}
+
+input {
+    width: 250px;
+    height: 20px;
+}
+
+textarea {
+    width: 248px;
+    height: 150px;
+}
+
+.contacts p {
+    color: #404040;
+    font-size: 14px;
+}
+
+#email:focus {
+    color: #F77;
+    background: #ddd;
+}
+
+.map {
+    width: 394px;
+    margin: auto;
+}
+
+/* Описание товаров */
+
+.product h3:first-letter, .product p:first-letter {
+    font-size: 1.2em;
+    color: #037;
+}
+
+.product h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short-description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detailed-description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.characteristics {
+    color: #545454;
+    font-size: 15px;
+    font-family: monospace;
+    list-style-type: none;
+}
+
+.border-img {
+    border: 1px solid;
+    border-color: #026;
+}
+
+.border-img:hover {
+    border: 0;
+    margin-top: 1px;
+    margin-bottom: 0.5px;
+}
+
+.size-table {
+    border: 1px solid;
+    margin: auto;
+}
+
+.product th {
+    height: 30px;
+}
+
+.product tr:nth-child(odd) {
+    background: #CCC;
+}
