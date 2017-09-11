@@ -34,6 +34,10 @@ h1 + img {
     height: 300px;
 }
 
+.index>p {
+    font-size: 1.3em;
+}
+
 /* Каталог */
 
 .catalog a {
@@ -47,7 +51,7 @@ h1 + img {
 
 /* Контакты */
 
-input, textarea {
+form * {
     color: #048;
     font-size: 14px; 
     text-transform: capitalize;
@@ -63,6 +67,10 @@ textarea {
     height: 150px;
 }
 
+input[type='submit'] {
+    width: 255px;
+}
+    
 .contacts p {
     color: #404040;
     font-size: 14px;
@@ -74,11 +82,16 @@ textarea {
 }
 
 .map {
-    width: 394px;
+    width: 400px;
     margin: auto;
 }
 
 /* Описание товаров */
+
+.content {
+    width: 900px;
+    margin: auto;
+}
 
 .product h3:first-letter, .product p:first-letter {
     font-size: 1.2em;
@@ -92,18 +105,19 @@ textarea {
     background-color: #eaeaea;
 }
 
+.border-img {
+    outline: 1px solid #026;
+}
+
+.border-img:hover {
+    outline: 0;
+}
+
 .short-description {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
-}
-
-.detailed-description {
-    color: #484343;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
 }
 
 .characteristics {
@@ -113,20 +127,22 @@ textarea {
     list-style-type: none;
 }
 
-.border-img {
-    border: 1px solid;
-    border-color: #026;
+.detailed-description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 900px;
+    margin: auto;
 }
 
-.border-img:hover {
-    border: 0;
-    margin-top: 1px;
-    margin-bottom: 0.5px;
+.size-table caption {
+    font-size: 1.2em;
 }
 
 .size-table {
     border: 1px solid;
-    margin: auto;
+    margin: 10px auto 20px;
 }
 
 .product th {
