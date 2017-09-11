@@ -1,0 +1,21 @@
+{
+	"connectingName": "grmn.ga",
+	"method": "sftp",
+	"host": "files.000webhost.com",
+	"port": "21",
+	"username": "grmnga",
+	"rsaPath": "",
+	"password": "21122006",
+	"serverPath": "/public_html/",
+	"save": true,
+	"siteUrl": "",
+	"method_p": "ftp",
+	"host_p": "files.000webhost.com",
+	"port_p": "21",
+	"username_p": "grmnga",
+	"rsaPath_p": "",
+	"password_p": "21122006",
+	"serverPath_p": "/public_html/",
+	"siteUrl_p": "",
+	"prfver": "1.1"
+}

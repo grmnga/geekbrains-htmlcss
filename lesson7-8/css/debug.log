@@ -1,0 +1,6 @@
+[0424/134322.550:ERROR:process_info.cc(343)] VirtualQueryEx: Отказано в доступе. (0x5)
+[0424/134322.552:ERROR:process_info.cc(564)] ReadMemoryInfo failed
+[0424/134322.694:ERROR:process_reader_win.cc(99)] process 594336 not found
+[0424/134322.694:ERROR:exception_snapshot_win.cc(87)] thread ID 584648 not found in process
+[0424/134322.694:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0424/134322.694:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения.  (0xc000010a)
